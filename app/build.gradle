@@ -26,6 +26,9 @@ dependencies {
 
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:30.1.1-jre'
+
+    // Apache Commons is used by 'CSVDemo.java'
+    implementation 'org.apache.commons:commons-rng-sampling:1.4'
 }
 
 testing {
